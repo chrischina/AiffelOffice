@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv*/
+.env
+
+# IDE (any depth)
+.idea/
+**/.idea/
+*.iml
+
+# Data directories (any depth)
+data/
+**/data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Claude local settings
+.claude/
+**/.claude/
