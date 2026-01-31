@@ -1,26 +1,22 @@
-# macOS
-.DS_Store
-
 # Python
 __pycache__/
-*.py[cod]
-.ipynb_checkpoints/
+*.pyc
+*.pyo
+
+# Virtual Environment
+venv/
 .venv/
-venv*/
+venvubuntu311/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
 .env
 
-# IDE (any depth)
-.idea/
-**/.idea/
-*.iml
-
-# Data directories (any depth)
-data/
-**/data/
+# OS
+.DS_Store
 
 # Jupyter
 .ipynb_checkpoints/
-
-# Claude local settings
-.claude/
-**/.claude/
