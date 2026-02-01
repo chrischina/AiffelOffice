@@ -1,0 +1,38 @@
+프로젝트 개요
+Kaggle의 Space Titanic 데이터셋을 활용한 EDA 및 머신러닝 프로젝트네요. 80.5% 정확도 달성이 목표입니다.
+주요 체크포인트
+1. 데이터 이해 단계
+
+Space Titanic은 원래 Titanic 생존 예측의 변형 버전입니다
+승객들이 다른 차원으로 이동했는지(Transported) 예측하는 문제일 것 같습니다
+어떤 피처들이 있는지 먼저 파악해야 합니다
+
+2. EDA 전략
+
+결측치 분석 및 처리 방법
+수치형/범주형 변수 분포 확인
+타겟 변수와의 상관관계 분석
+피처 간 상호작용 탐색
+
+3. 전처리 아이디어
+
+PassengerId에서 그룹 정보 추출 가능할 것 같습니다
+Cabin 정보 분리 (deck/num/side)
+소비 관련 피처들 (RoomService, FoodCourt, ShoppingMall 등) 처리
+나이대별 그룹화 고려
+
+4. 모델링 방향
+
+간단한 모델부터: Logistic Regression, Decision Tree
+앙상블: Random Forest, XGBoost, LightGBM
+교차 검증으로 안정성 확보
+
+5. 보고서 구성
+
+개요 및 목차
+데이터 탐색 과정
+전처리 논리적 근거
+시각화 인사이트
+모델 결과 분석
+Summary & 회고
+Reference
